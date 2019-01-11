@@ -1,0 +1,18 @@
+[
+ {
+   "Command": "A",
+   "URL": "C:\Videos\video1.avi"
+ },
+ {
+   "Command": "B",
+   "URL": "C:\Videos\video2.mpg"
+ },
+ {
+   "Command": "VIDEO1",
+   "URL": "C:\Videos\video3.mp4"
+ },
+ {
+   "Command": "VIDEO2",
+   "URL": "C:\Videos\video4.3gp"
+ }
+]

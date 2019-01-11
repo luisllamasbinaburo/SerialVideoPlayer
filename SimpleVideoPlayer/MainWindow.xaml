@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SimpleVideoPlayer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        WindowStyle="None"
+        WindowState="Maximized"
+        Title="SimpleVideoPlayer"
+        Width="1920" Height="1080"
+        Closing="Window_Closing">
+    <Grid Background="Black">
+        <MediaElement Grid.Row="0" Name="VideoControl" 
+                      Source="{Binding VideoPath}"
+                      MediaEnded="VideoControl_ResetPosition"
+                      MediaOpened="VideoControl_ResetPosition"/>
     </Grid>
 </Window>
